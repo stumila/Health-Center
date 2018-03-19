@@ -1,0 +1,286 @@
+body{
+   
+    background-color: #dbd8d8;
+    font-family: 'Lato', sans-serif;
+    color: #3b3a36; 
+    color:rgb(129, 126, 126); 
+    
+}   
+h1{
+    color:#9ed6cb;
+    text-shadow: 4px 1px 2px rgba(206, 206, 206, 0.055);
+}
+h2{
+    color:#9ed6cb;
+}
+#container{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#f5f5f5;
+  /*  box-shadow: 0px 0px 10px 5px rgba(245,242,245,1);*/
+}
+
+#header{
+    width: 950px;
+    background-color: #9ed6cb;
+    color : #ffffff;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+#logo{
+    float:left;
+    width:760px;
+    padding:20px;
+    text-align: center;
+}
+
+#contact{
+    float:left;
+    width: 140px;
+    padding:5px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    margin-top:80px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: right;
+
+}
+.nav{
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+#maincontent{
+    float:left;
+    width: 708px;
+    padding: 20px;
+    background-color: white;
+    min-height: 450px;
+    
+}
+#aside{
+    float:left;
+    width: 210px;
+    padding: 20px;
+    
+}
+#asidecontact{
+    border-top: 1px solid #94d8c4;
+    border-bottom: 1px solid #94d8c4;
+    margin-top:20px;
+    padding: 20px;
+    text-align: left;
+    color:rgb(129, 126, 126);
+    background-color:#aee6d6;
+}
+#data{
+    border-top: 1px solid #94d8c4;
+    border-bottom: 1px solid #94d8c4;
+    margin-top:20px;
+    padding: 30px 20px;
+    text-align: canter;
+    color:rgb(129, 126, 126);
+    background-color:#aee6d6;
+}
+.footer{
+    background-color:#d1d6ca;
+    padding: 10px;
+    color:#75bbad;
+    text-align: center;
+    width: 980px;
+}
+
+
+ol{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-size: 18px;
+    height : 35px;
+    line-height: 200%;
+    display: inline-block;
+}
+
+ol a{
+    color: #9ed6cb;
+    text-decoration: none; 
+    display: block;
+}
+
+ol > li{
+    float: left;
+    height: 40px;
+    width: 150px;
+    border-right: 1px dashed #9ed6cb;
+
+}
+ol > li:first-child{
+    border-left: 1px dashed #9ed6cb;
+    
+}
+
+ol > li:hover{
+    background-color:#d5f1eb;
+    
+}
+ol > li:hover > a{
+    color: #b3c2bf;
+}
+ol > li:hover > ul{
+    display: block;
+}
+
+
+ol > li > ul{
+    padding:0;
+    margin: 0;
+    list-style-type: none;
+    font-size: 16px;
+    display: none;
+}
+ol > li > ul > li{
+    background-color:#d5f1eb;
+}
+ol > li > ul > li > a{
+    color: #b3c2bf;
+}
+ol > li >ul > li:hover{
+    background-color:#d1ece6;
+    
+}
+
+.sticky
+{
+    width: 980px;
+	position: fixed;
+    top:0;
+	z-index: 100;
+}
+table{
+    margin-left:auto;
+    margin-right: auto;
+    border: 1px solid #b3c2bf;
+    table-layout: fixed;
+    width: 550px;
+    border-collapse: collapse;
+}
+th,td{
+    margin:0px;
+    max-height:20px;
+    width:110px;
+    text-align: center;
+    border-right: 1px solid #b3c2bf;
+    color:rgb(129, 126, 126); 
+}
+thead th{
+    padding:  8px 8px 0px 8px;
+}
+thead td{
+    padding:  8px 8px 8px 8px  ;
+}
+thead {
+    border-bottom: 1px solid #b3c2bf;
+    background-color: #e9ece5;
+} 
+
+
+caption{
+    color:#75bbad;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top:20px;
+        
+}
+/*Przycisk 2 */
+input.button2{
+    margin: 0;
+    width: 110px;
+     
+    text-align: center;
+    border:none;
+    text-decoration:none;
+    padding: 8px;  
+    background-color: white;
+    color:#5c9b8c; 
+}
+input.button2:hover{
+    color:rgb(129, 126, 126); 
+    background-color: #9ed6cb;
+}
+.button3:disabled{
+    margin: 0;
+    width: 110px;
+     
+    text-align: center;
+    border:none;
+    padding: 8px;  
+    text-decoration:line-through;
+    background-color: white;
+    color:rgb(165, 164, 164); 
+
+}
+
+/* PRZYCISK 1*/
+.button1{
+    padding: 15px;
+    background-color: #d5f1eb;
+    border: none;
+    border-radius: 8px;
+    color:rgb(129, 126, 126);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+}
+.button1:hover{
+    background-color: #f1f1f1;
+    color: #75bbad;
+}
+/* FORMULARZ LOGOWANIA/ REJESTRACJI*/
+
+input.login:not([type=submit]):not([type=file]){
+    width: 200px;
+    background-color:#f1f1f1;
+    border:2px solid #e6e6e6;
+    border-radius: 5px;
+    color: #666666;
+    font-size: 14px;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    display: block;
+
+    -webkit-box-shadow: 0px 0px 9px -2px rgba(189,183,189,0.9);
+    -moz-box-shadow: 0px 0px 9px -2px rgba(189,183,189,0.9);
+    box-shadow: 0px 0px 9px -2px rgba(189,183,189,0.9);
+    outline:none;
+}
+
+input.login[type=submit]{
+    width: 200px;
+    background-color: #9ed6cb;
+    margin-top: 25px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 0px solid;
+    color: #f1f1f1;
+    padding: 8px;
+}
+
+input.login:not([type=submit]):not([type=file]):focus
+{
+    background-color: #e1e1e1;
+}
+input.login[type=submit]:hover{
+    background-color: #84cabc;
+}
+
+.log{
+    width: 314px;
+    float: left;
+    padding:20px;
+
+}
